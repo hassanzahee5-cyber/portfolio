@@ -380,7 +380,8 @@ img {
 
 .photo-inner {
   width: 100%;
-  height: 380px;
+  aspect-ratio: 1 / 1;
+  height: auto;
   border-radius: calc(var(--radius-lg) - 6px);
   overflow: hidden;
   background-color: #0f1622;
@@ -390,7 +391,7 @@ img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: center 20%;
+  object-position: center;
 }
 
 .photo-details {
